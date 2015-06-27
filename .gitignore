@@ -1,4 +1,6 @@
 *~
+*.bak
 *.pyc
+*.pid
 cache
 output

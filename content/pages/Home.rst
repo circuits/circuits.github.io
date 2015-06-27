@@ -22,21 +22,21 @@ Features
 Examples
 --------
 
-Hello World!
+`Hello World! <https://github.com/circuits/circuits/blob/master/examples/hello.py>`_
 
 .. code-include:: ../examples/hello.py
     :lexer: python
     :encoding: utf-8
     :tab-width: 4
 
-A simple Echo Server:
+A simple `Echo Server <https://github.com/circuits/circuits/blob/master/examples/echoserver.py>`_:
 
 .. code-include:: ../examples/echoserver.py
     :lexer: python
     :encoding: utf-8
     :tab-width: 4
 
-A simple Web Application:
+A simple `Web Application <https://github.com/circuits/circuits/blob/master/examples/web/controllers.py>`_:
 
 .. code-include:: ../examples/webapp.py
     :lexer: python

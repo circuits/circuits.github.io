@@ -8,8 +8,9 @@ branches:
 install:
   - pip install -r requirements.txt
 script:
+  - git config --global user.email "travis@travis-ci.org"
+  - git config --global user.name "travis-ci"
   - git config credential.helper "store --file=.git/credentials"
-  - git remote set-url --push origin https://github.com/circuits/circuits.github.io.git
   - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
   - make publish
 after_success:

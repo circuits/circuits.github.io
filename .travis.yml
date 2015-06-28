@@ -11,4 +11,6 @@ script:
   - git config credential.helper "store --file=.git/credentials"
   - git remote set-url --push origin https://github.com/circuits/circuits.github.io.git
   - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
-  - make publish github
+  - make publish
+after_success:
+  - make github

@@ -1,3 +1,6 @@
+env:
+  global:
+    - secure: "L8Rsc7UunVuff1at46rkY0ZPTpatjMZ/DfLYNJUM+u04ZYlxkkSP04G8/O6jBjQ7tfm3PdP2qWK6tMtUNrI/lCKa4BmQT19U24VFB4VmASeMxMz5jXbZEcAuZjmXvTnZ9F8vBKbl9nrdpAEJLgbz3a0AtG6tqHSPhCHpPOW+PnPeOo/HAg/dk959zYkyjdKkZZlK/BgXyIApGk6ShDSBpoZFV6da7xNe0/kNf6OIb+QJLfELgkHXn1aaD8ZwE+ggWL9UN36mfnEmrj/4Wn2sZE9GD9WxLaXJXBuE89JDxuG02tRKcQDxxcouD584JL0g4BIp5W7P8XDjMo8GXbweMfGENYWIfzEBgjx3I+pt/eKLGxHxdJ+EaECdda9eEQmmCSc2/tAo+kS5gYxW5Ho9uqy3kFs5/GtihSqYdVF/1APEMXpysM+qXDwW6n5H/rZGHRVXDIXNjxiLS+1Rw1vHycWQYJFvjUEqJKRg6ZXrM0AIKlys9dYWK27IqgzszWiPYiHWAZ7/GXh2MR1jkSou4gf0X4x6PukeVetsuCaqO4FQ7XZmiICRlOB7TK1CGnEyfS9tb8oIUcEgGKr6bcNBSaOIQF8SNnr0Ygp6bVZlJtKx1MkXvGfOFrxn3lGtoox/8O7SWT9GsyBE8h+W9YQZglR0lZRQsxjM94R4l6gO2DY="
 language: python
 branches:
   only:
@@ -5,4 +8,6 @@ branches:
 install:
   - pip install -r requirements.txt
 script:
+  - git config credential.helper "store --file=.git/credentials"
+  - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
   - make publish github

@@ -33,6 +33,7 @@ DISPLAY_PAGES_ON_MENU = False
 
 MENUITEMS = (
     ("Home", "/"),
+    ("Docs", "/docs"),
     ("Downloads", "/downloads"),
     ("Community", "/community"),
 )

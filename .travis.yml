@@ -15,3 +15,5 @@ script:
   - make publish
 after_success:
   - make github
+notifications:
+  irc: "chat.freenode.net#circuits"

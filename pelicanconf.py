@@ -33,8 +33,8 @@ DISPLAY_PAGES_ON_MENU = False
 
 MENUITEMS = (
     ("Home", "/"),
-    ("Downloads", "downloads"),
-    ("Community", "community"),
+    ("Downloads", "/downloads"),
+    ("Community", "/community"),
 )
 
 # Blogroll

@@ -43,6 +43,7 @@ LINKS = (
     ("PyPi", "https://pypi.python.org/pypi/circuits"),
     ("Github", "https://github.com/circuits/circuits"),
     ("Waffle",  "https://waffle.io/circuits/circuits"),
+    ("OpenHub", "https://www.openhub.net/p/circuits"),
     ("Coveralls", "https://coveralls.io/r/circuits/circuits"),
     ("Landscape", "https://landscape.io/github/circuits/circuits"),
     ("Travis CI", "https://travis-ci.org/circuits/circuits"),

@@ -1,11 +1,15 @@
+.. _Python Programming Language: http://www.python.org/
+
 :title: Home
 :save_as: index.html
-
-.. _Python Programming Language: http://www.python.org/
 
 circuits is a **Lightweight** **Event** driven and **Asynchronous**
 **Application Framework** for the `Python Programming Language`_
 with a strong **Component** Architecture.
+
+circuits also includes a lightweight, high performance and scalable
+HTTP/WSGI compliant web server as well as various I/O and Networking
+components.
 
 Features
 --------

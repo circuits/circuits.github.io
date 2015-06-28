@@ -39,5 +39,5 @@ We publish `Wheels`_ to `PyPi`_ at:
 
 .. alert-info::
    
-   If you'd like to have RPM or DEB packages available we need maintainers for such apckages!
-   if you're interested in helping out; please `Contact Us <{filename}./Contact.rst>`_
+   If you would like to have RPM or DEB packages available, we need maintainers!
+   if you are interested in helping out, please `Contact Us <{filename}./Contact.rst>`_

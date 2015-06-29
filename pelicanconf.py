@@ -64,5 +64,6 @@ DEFAULT_PAGINATION = 10
 
 PLUGINS = (
     "code_include",
+    "filetime_from_git",
     "twitter_bootstrap_rst_directives",
 )

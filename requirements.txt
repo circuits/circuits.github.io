@@ -1,4 +1,5 @@
 pelican
+gitpython
 ghp-import
 
 # Fork of pelican-plugins supporting setup.py

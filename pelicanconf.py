@@ -52,6 +52,7 @@ MENUITEMS = (
     ("Docs", "/docs"),
     ("Blogs", "/blogs"),
     ("Community", "/community"),
+    ("Support", "/support"),
 )
 
 # Blogroll

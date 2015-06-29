@@ -4,4 +4,4 @@
 .. _Documentation: http://circuits.readthedocs.org/
 .. _ReadTheDocs: http://readthedocs.org/
 
-Our `Documentation`_ is proudly ohsted on `ReadTheDocs`_.
+Our `Documentation`_ is proudly hosted on `ReadTheDocs`_.

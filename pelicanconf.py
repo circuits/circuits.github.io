@@ -3,13 +3,28 @@
 from __future__ import unicode_literals
 
 AUTHOR = u"James Mills"
+AUTHOR_EMAIL = "prologic@shortcircuit.net.au"
 SITENAME = u"Circuits Framework"
 SITEURL = ""
+
+SITEMAP = {
+    "format": "xml",
+    "priorities": {
+        "articles": 0.5,
+        "indexes": 0.5,
+        "pages": 0.5
+    },
+    "changefreqs": {
+        "articles": "monthly",
+        "indexes": "daily",
+        "pages": "monthly"
+    }
+}
 
 PATH = "content"
 
 THEME = "theme"
-BOOTSTRAP_THEME = "readable"
+BOOTSTRAP_THEME = "cerulean"
 
 TIMEZONE = "Australia/Brisbane"
 
@@ -63,7 +78,10 @@ DEFAULT_PAGINATION = 10
 # RELATIVE_URLS = True
 
 PLUGINS = (
+    "sitemap",
+    "headerid",
     "code_include",
     "filetime_from_git",
+    "html_rst_directive",
     "twitter_bootstrap_rst_directives",
 )

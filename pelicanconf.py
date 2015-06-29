@@ -44,6 +44,15 @@ CATEGORY_SAVE_AS = "{slug}/index.html"
 PAGE_URL = "{slug}/"
 PAGE_SAVE_AS = "{slug}/index.html"
 
+TAGS_URL = "tags/"
+TAGS_SAVE_AS = "tags/index.html"
+AUTHORS_URL = "authors/"
+AUTHORS_SAVE_AS = "authors/index.html"
+ARCHIVES_URL = "archives/"
+ARCHIVES_SAVE_AS = "archives/index.html"
+CATEGORIES_URL = "categories/"
+CATEGORIES_SAVE_AS = "categories/index.html"
+
 DISPLAY_PAGES_ON_MENU = False
 
 MENUITEMS = (

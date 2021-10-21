@@ -16,4 +16,4 @@ script:
 after_success:
   - make travis
 notifications:
-  irc: "chat.freenode.net#circuits"
+  irc: "irc.libera.chat#circuits"

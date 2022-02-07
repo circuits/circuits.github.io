@@ -13,7 +13,7 @@ $ make clean html
 $ circuits.web output
 ```
 
-Generated website should be viewable at: http://localhsot:8000/
+Generated website should be viewable at: http://localhost:8000/
 
   [1]: http://blog.getpelican.com/
   [2]: https://en.wikipedia.org/wiki/ReStructuredText

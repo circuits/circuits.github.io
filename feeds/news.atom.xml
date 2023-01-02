@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Circuits Framework - news</title><link href="/" rel="alternate"></link><link href="/feeds/news.atom.xml" rel="self"></link><id>/</id><updated>2015-07-02T15:51:29+10:00</updated><entry><title>Welcome to the NEW circuits Website!</title><link href="/2015/Jun/28/welcome/" rel="alternate"></link><published>2015-06-28T04:38:58+10:00</published><updated>2015-07-02T15:51:29+10:00</updated><author><name>James Mills</name></author><id>tag:None,2015-06-28:/2015/Jun/28/welcome/</id><summary type="html">&lt;p class="first last"&gt;Introducing the new circuits website&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;Welcome to the new circuits website!&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Circuits Framework</title><link href="/" rel="alternate"></link><link href="/feeds/news.atom.xml" rel="self"></link><id>/</id><updated>2015-07-02T13:51:29+10:00</updated><entry><title>Welcome to the NEW circuits Website!</title><link href="/2015/Jun/28/welcome/" rel="alternate"></link><updated>2015-07-02T13:51:29+10:00</updated><author><name>James Mills</name></author><id>tag:,2015-06-28:2015/Jun/28/welcome/</id><summary type="html">&lt;p&gt;Welcome to the new circuits website!&lt;/p&gt;
 &lt;p&gt;This website has been developed from the ground up to be mobile friendly
 for our modern mobile computing lives. The old website was old and outdated
 style-wise and was powered by a dynamic and very flexible content management
@@ -24,4 +23,4 @@ proudly hosted by our friends at &lt;a class="reference external" href="http://w
 &lt;p&gt;Enjoy the new site!&lt;/p&gt;
 &lt;p&gt;cheers&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="http://prologic.shortcircuit.net.au/"&gt;James Mills&lt;/a&gt;&lt;/p&gt;
-</content><category term="news"></category><category term="circutis"></category><category term="website"></category></entry></feed>
+</summary><category term="circutis"></category><category term="website"></category></entry></feed>

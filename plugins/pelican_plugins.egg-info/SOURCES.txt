@@ -1,4 +1,5 @@
 README.rst
+setup.py
 code_include/__init__.py
 code_include/code_include.py
 filetime_from_git/__init__.py

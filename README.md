@@ -8,9 +8,12 @@ add to or modify content with any regular text editor.
 ## Quick Start
 
 ```#!bash
+$ python3 -m venv tmp
+$ . tmp/bin/activate
 $ pip install -r requirements.txt
 $ make clean html
 $ circuits.web output
+$ deactivate
 ```
 
 Generated website should be viewable at: http://localhost:8000/

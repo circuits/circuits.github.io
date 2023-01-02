@@ -4,3 +4,4 @@
 *.pid
 cache
 output
+tmp
